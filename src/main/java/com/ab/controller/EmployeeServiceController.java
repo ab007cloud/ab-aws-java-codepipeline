@@ -9,7 +9,7 @@ import com.ab.model.Employee;
 public class EmployeeServiceController {
 	@GetMapping("/employee")
 	public Employee listEmployees() {
-		Employee employee = new Employee("200", "EB, "1234567890");
+		Employee employee = new Employee("200", "EB", "1234567890");
 		return employee;
 
 	}
